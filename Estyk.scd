@@ -198,8 +198,8 @@ s.waitForBoot({
 			mix = mix + reverb;
 
 			mix = mix * amp;
-
 			mix = Limiter.ar(mix, amp, 0.01);
+			mix = LeakDC.ar(mix);
 
 			Out.ar(0, mix);
 			ScopeOut2.ar(mix, scopeBuffer);

@@ -14,7 +14,7 @@ In addition, you need `sc3-plugins` installed. [See this page to install sc3-plu
 
 You also need to install the `GraphicalModule` quark to run it. You can use the dedicated interface, or evaluate `Quarks.install("GraphicalModule");` to do so. Then you'll have to recompile the library (re-open SuperCollider or use `CTRL + SHIFT + L`).
 
-If you had the GraphicalModule installed already, make sure it is up-to-date by evaluating `Quarks.update("Graphical-Module")`. Then, recompile.
+If you had the GraphicalModule installed already, make sure it is up-to-date by evaluating `Quarks.update("GraphicalModule")`. Then, recompile.
 
 To run Estyk, evaluate `Estyk.scd` within SuperCollider (once configured).
 
